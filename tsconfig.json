@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "commonjs",
+    "rootDirs": [
+      "src",
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+    }
+  },
+  "compileOnSave": true,
+  "include": [
+    "src",
+  ],
+  
+}
